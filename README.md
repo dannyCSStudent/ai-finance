@@ -53,27 +53,6 @@
 
 This project uses [Turborepo](https://turbo.build/repo) to manage multiple apps and packages efficiently.
 
-Project Structure:
-
-ai-finance/
-├── apps/
-│   ├── frontend-mobile/     # 📱 React Native + Expo
-│   ├── frontend-web/        # 🌐 Next.js (PWA optional)
-│   ├── backend-nest/        # 🧠 Core business logic (NestJS)
-│   └── backend-fastapi/     # 🤖 AI & data services (FastAPI)
-│
-├── packages/
-│   └── ui/                  # 🧩 Shared UI components
-│
-├── .vscode/                 # ⚙️ VSCode settings
-├── .gitignore               # 🚫 Git ignored files
-├── turbo.json               # 🏎️ Turborepo pipeline config
-├── pnpm-workspace.yaml      # 📦 Workspace config
-├── package.json             # 📋 Project metadata
-└── README.md                # 📖 Project documentation
-
-
----
 
 ## 🧩 Tech Stack Overview
 
