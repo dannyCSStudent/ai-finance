@@ -98,6 +98,7 @@ This project uses [Turborepo](https://turbo.build/repo) to manage multiple apps 
 - Docker
 - pnpm
 
+
 ### Setup
 
 ```bash
@@ -110,51 +111,51 @@ pnpm install
 
 # Start all apps (using Turborepo)
 pnpm dev
-
+```
 
 🚀 Deployment
 
 Supports both development and production deployment pipelines using:
 
-    EAS (Expo Application Services) for mobile builds.
-
-    Docker + Kubernetes or Vercel for web and backend services.
-
-    Terraform or CloudFormation for infrastructure provisioning.
+- EAS (Expo Application Services) for mobile builds.
+  
+- Docker + Kubernetes or Vercel for web and backend services.
+  
+- Terraform or CloudFormation for infrastructure provisioning.
 
 🛡️ Security & Compliance
 
-    End-to-end encryption
+- End-to-end encryption
 
-    Biometric authentication
+- Biometric authentication
 
-    Secure payment integration
+- Secure payment integration
 
-    Compliant with GDPR, PCI-DSS, and other financial standards
+- Compliant with GDPR, PCI-DSS, and other financial standards
 
 📈 Future Roadmap
 
-    ✅ Android emulator integration for mobile dev
+- ✅ Android emulator integration for mobile dev
 
-    ⬜ iOS testing and App Store deployment
+- ⬜ iOS testing and App Store deployment
 
-    ⬜ AI model fine-tuning for personal finance
+- ⬜ AI model fine-tuning for personal finance
 
-    ⬜ DeFi and NFT insights
+- ⬜ DeFi and NFT insights
 
-    ⬜ Web3 wallet integrations
+- ⬜ Web3 wallet integrations
 
 🤝 Contributing
 
 We welcome PRs, discussions, and feature ideas!
 
-    Fork the repo
+- Fork the repo
 
-    Create a branch (feat/my-feature)
+- Create a branch (feat/my-feature)
 
-    Commit your changes
+- Commit your changes
 
-    Push and open a pull request
+- Push and open a pull request
 
 📄 License
 
@@ -162,4 +163,9 @@ This project is licensed under the MIT License.
 ✨ Stay Connected
 
 Follow this repo for updates. Contributions, suggestions, and stars are highly appreciated!
+
+
+
+
+
 
