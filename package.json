@@ -1,0 +1,39 @@
+{
+  "name": "ai-finance",
+  "private": true,
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "test": "turbo run test",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "mobile": "turbo run mobile",
+    "mobile:android": "turbo run mobile:android",
+    "web": "turbo run dev --filter=frontend-web",
+    "api:nest": "turbo run dev --filter=backend-nest",
+    "api:fastapi": "turbo run dev --filter=backend-fastapi",
+    "dev:all": "turbo run dev --parallel"
+  },
+  "devDependencies": {
+    "prettier": "^3.5.3",
+    "tsup": "^8.4.0",
+    "turbo": "^2.5.0",
+    "typescript": "5.8.2"
+  },
+  "packageManager": "pnpm@9.0.0",
+  "engines": {
+    "node": ">=18"
+  },
+  "pnpm": {
+    "overrides": {
+      "react": "18.3.1",
+      "react-dom": "18.3.1",
+      "@types/react": "18.3.1",
+      "@types/react-dom": "18.3.1"
+    }
+  },
+  "dependencies": {
+    "expo-dev-client": "^5.0.20",
+    "expo-modules-core": "^2.2.3"
+  }
+}
