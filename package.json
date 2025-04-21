@@ -2,6 +2,9 @@
   "name": "ai-finance",
   "private": true,
   "scripts": {
+    "mobile": "turbo run mobile",
+    "mobile:android": "turbo run mobile:android",
+    "build:mobile:dev": "turbo run build:mobile:dev",
     "build": "turbo run build",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
@@ -18,13 +21,15 @@
     "node": ">=18"
   },
   "pnpm": {
-  "overrides": {
-    "react": "18.3.1",
-    "react-dom": "18.3.1",
-    "@types/react": "18.3.1",
-    "@types/react-dom": "18.3.1"
+    "overrides": {
+      "react": "18.3.1",
+      "react-dom": "18.3.1",
+      "@types/react": "18.3.1",
+      "@types/react-dom": "18.3.1"
+    }
+  },
+  "dependencies": {
+    "expo-dev-client": "^5.0.20",
+    "expo-modules-core": "^2.2.3"
   }
-}
-
-
 }
